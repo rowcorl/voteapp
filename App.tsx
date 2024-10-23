@@ -30,7 +30,7 @@ export default function App() {
           component={HomeScreen}
           options={(props: { navigation: any; }) => ({
             animation: 'slide_from_right',
-            headerTitle: "wey",
+            headerTitle: "weyi",
             headerLeft: () => (
               <View style={{paddingLeft:5, alignItems: 'baseline', flexDirection: 'row', }}>
                 <View style={{paddingLeft:5}}><Text style={{ fontSize: 18, color: objcolors.green_fff, fontWeight: '600' }}>Home</Text></View>
