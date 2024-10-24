@@ -1,6 +1,10 @@
 {
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
+    "jsx": "react",
+    "outDir":"../../public/static",
+    "rootDir": ".",
     "strict": true
-  }
+  },
+  "include":["./**/.*{ts,tsx}"]
 }
