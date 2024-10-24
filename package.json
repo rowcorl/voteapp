@@ -6,8 +6,7 @@
   "scripts": {
     "start": "expo start",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "build": "typescript build",
+    "deploy": "gh-pages -d dist",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web"
