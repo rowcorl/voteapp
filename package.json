@@ -7,6 +7,9 @@
     "start": "expo start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+    "dev": "webpack --config=Scripts/config/webpack.dev.js --watch",
+    "build": "webpack --config=Scripts/config/webpack.prod.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web"
